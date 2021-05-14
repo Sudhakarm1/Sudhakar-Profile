@@ -9,7 +9,7 @@ export class ContactComponent implements OnInit {
   constructor(private fb:FormBuilder) { }
   ImageSrc:string="./assets/Image/Cart.png";
   ImageSrcHome:string="./assets/Image/PassPort size Photo.png";
-  Resume:string="./assets/Image/Java-1.png";
+  Resume:string="./assets/Image/java-2.png";
   Angular:string="./assets/Image/angular-icon.svg";
   Spring:string="./assets/Image/spring-boot.png";
   JavaScript:string="./assets/Image/javascript.svg";
@@ -20,7 +20,7 @@ export class ContactComponent implements OnInit {
   Mongo:string="./assets/Image/mongodb.svg";
   CSharp:string="./assets/Image/CSharp.png";
   DotNet:string="./assets/Image/NET_Core.png";
-  DotNetMVC:string="./assets/Image/aspnet.png";
+  DotNetMVC:string="./assets/Image/NET.png";
   Html:string="./assets/Image/html.png";
   Css:string="./assets/Image/CSS3.png";
   AboutSubImage:string="./assets/Image/Sub-AboutImage.jpg";
