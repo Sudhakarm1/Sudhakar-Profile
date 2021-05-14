@@ -23,6 +23,7 @@ export class ContactComponent implements OnInit {
   DotNetMVC:string="./assets/Image/aspnet.png";
   Html:string="./assets/Image/html.png";
   Css:string="./assets/Image/CSS3.png";
+  AboutSubImage:string="./assets/Image/Sub-AboutImage.jpg";
   python:string="./assets/Image/Python.png";
   CertificationPro:string="./assets/Image/Certification-1.png";
   CertificationGuvi:string="./assets/Image/Certification-2.jpg";
