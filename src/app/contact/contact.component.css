@@ -167,7 +167,9 @@ h3{
     border-radius: 49px;
     color: #007bff;
   }
-  
+  em{
+    font-size: 16px;
+  }
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
