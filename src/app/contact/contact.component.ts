@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
   MySql:string="./assets/Image/MySQL.png";
   Mongo:string="./assets/Image/mongodb.svg";
   CSharp:string="./assets/Image/CSharp.png";
-  DotNet:string="./assets/Image/NET_Core.png";
+  DotNet:string="./assets/Image/NET_Core.png"; 
   DotNetMVC:string="./assets/Image/NET.png";
   Html:string="./assets/Image/html.png";
   Css:string="./assets/Image/CSS3.png";
@@ -28,6 +28,7 @@ export class ContactComponent implements OnInit {
   CertificationPro:string="./assets/Image/Certification-1.png";
   CertificationGuvi:string="./assets/Image/Certification-2.jpg";
   AboutImage:string="./assets/Image/3d-flame-100.png";
+  CertificationJava:string="./assets/Image/Javac.png";
   ngOnInit
   (): void {
   }
