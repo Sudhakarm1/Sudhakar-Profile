@@ -1,5 +1,7 @@
+import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl,Validators, FormBuilder, AbstractControl } from '@angular/forms';
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -29,6 +31,7 @@ export class ContactComponent implements OnInit {
   CertificationGuvi:string="./assets/Image/Certification-2.jpg";
   AboutImage:string="./assets/Image/3d-flame-100.png";
   CertificationJava:string="./assets/Image/Javac.png";
+  SubmitData:string="";
   ngOnInit
   (): void {
   }
@@ -37,11 +40,14 @@ export class ContactComponent implements OnInit {
     LastName: ['',Validators.compose([Validators.required, Validators.minLength(3),Validators.maxLength(10),Validators.pattern('^[a-zA-Z ]*$'),])],
     Email: ['',Validators.compose([Validators.required,Validators.pattern('[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$')])],
     Mobile: ['',Validators.compose([Validators.required, Validators.minLength(10),Validators.maxLength(12),Validators.pattern('^[0-9]*$'),])],
-    Subject:['',Validators.compose([Validators.required, Validators.minLength(3),Validators.maxLength(30),Validators.pattern('^[a-zA-Z ]*$'),])]
+    Subject:['',Validators.compose([Validators.required, Validators.minLength(3),Validators.maxLength(30),Validators.pattern('^[a-zA-Z ]*$'),])],
+    Message:[]
   });
   OnSubmit():void
   {
-    console.log("Successfully Submitted");
+    this.SubmitData="Successfully Submitted";
+    
+    this.form.reset();
   }
   Click():void
   {

@@ -1,9 +1,27 @@
+<section style="background-color: blue;">
+<nav>
+    <input type="checkbox" id="check">
+   <label for="check" class="checkbtn">
+      <i class="fa fa-bars" style="color: white;"></i>
+    </label>
+    <label class="logo">MS</label>
+    <ul>
+      <li class="a"><a class="active" href="#">Home</a></li>
+      <li class="a"><a href="#aboutme">About</a></li>
+      <li class="a"><a href="#resume">Resume</a></li>
+      <li class="a"><a href="#Skills">Skill</a></li>
+      <li class="a"><a href="#certification">Certification</a></li>
+      <li class="a"><a href="#Appreciation">Appreciation</a></li>
+      <li class="a"><a href="#contact">Contack Us</a></li>
+    </ul>
+  </nav>
+</section>
 <!--Contact Page Started-->
 <section id="Home" class="HomePage d-flex flex-column justify-content-center webp-content webp"
     style="padding-bottom: 70px;text-align: center;">
     <div class="container">
         <div class="row">
-            <div class="contact-Heading col-lg-12">
+            <div class="contact-Heading HomeHeading col-lg-12">
                 <div>
                     <h2 style="font-size: 30px;
                 font-weight: 400;
@@ -484,6 +502,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8">
+                   
                     <form [formGroup]="form" (ngSubmit)="OnSubmit()">
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -618,9 +637,11 @@
                             <textarea type="text" class="form-control" id="inputMessage" placeholder="Message"
                                 formControlName="Message"></textarea>
                         </div>
+                       
                         <button type="submit" class="btn" style="background-color: #007bff;color: white;"
                             [disabled]="!form.valid">Send Message</button>
                     </form>
+                    <small style="color: green;">{{SubmitData}}</small>
                 </div>
                 <div></div>
 
