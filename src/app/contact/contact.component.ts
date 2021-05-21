@@ -31,6 +31,7 @@ export class ContactComponent implements OnInit {
   CertificationGuvi:string="./assets/Image/Certification-2.jpg";
   AboutImage:string="./assets/Image/3d-flame-100.png";
   CertificationJava:string="./assets/Image/Javac.png";
+  CertificationPython:string="./assets/Image/python.png";
   SubmitData:string="";
   ngOnInit
   (): void {

@@ -12,6 +12,10 @@
   padding-left: 0px  !important;
   padding-right: 0px !important;
 }
+.certification
+{
+  padding-bottom: 20px;
+}
 .row
 {
   margin-left: 0px !important;
@@ -251,6 +255,10 @@ nav ul li a{
   .checkbtn{
     display: block;
   }
+  .navbars:hover
+  {
+    background: #2c3e50 !important;
+  }
   ul{
     position: fixed;
     width: 100%;
@@ -269,11 +277,11 @@ nav ul li a{
   nav ul li a{
     font-size: 20px;
   }
-  .a:hover,.a.active{
+  .a.active{
     background: none;
     background: #6f767c;
   }
   #check:checked ~ ul{
-    left: 0;
+    left: -100.9px;
   }
 }
