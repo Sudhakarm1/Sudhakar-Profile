@@ -33,6 +33,7 @@ export class ContactComponent implements OnInit {
   CertificationJava:string="./assets/Image/Javac.png";
   CertificationPython:string="./assets/Image/python.png";
   SubmitData:string="";
+  File:string="assets/Image/SudhakarResume.pdf"
   ngOnInit
   (): void {
   }
